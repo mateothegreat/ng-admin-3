@@ -1,0 +1,107 @@
+<!-- ============================================================== -->
+<!-- Info box -->
+<!-- ============================================================== -->
+<div class="row">
+    <div class="col-12">
+        <pa></pa>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Info box -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Over Visitor, Our income , slaes different and  sales prediction -->
+<!-- ============================================================== -->
+<div class="row">
+    <!-- Column -->
+    <div class="col-lg-8 col-md-12">
+        <div class="card income-o-year">
+            <div class="card-body">
+                <div class="d-flex m-b-30 no-block">
+                    <h5 class="card-title m-b-0 align-self-center">Income of the Year</h5>
+                    <div class="ml-auto">
+                        <ul class="list-inline font-12">
+                            <li><i class="fa fa-circle text-info"></i> Growth</li>
+                            <li><i class="fa fa-circle text-success"></i> Net</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="height: 375px">
+                    <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="lineChartOptions1" [legend]="barChartLegend" [chartType]="barChartType" [colors]="barChartColors">
+                </canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Column -->
+    <!-- Column -->
+    <div class="col-lg-4 col-md-12">
+        <div class="row">
+            <!-- Column -->
+            <div class="col-md-12">
+                <div class="card bg-primary band">
+                    <div class="card-body">
+                        <h4 class="card-title text-white">Bandwidth usage</h4>
+                        <h6 class="card-subtitle text-white op-5">March 2018</h6>
+                        <div class="d-flex no-block">
+                            <div class="align-self-end no-shrink">
+                                <h2 class="m-b-0 text-white">68 TB</h2>
+                            </div>
+                            <div class="ml-auto m-t-15">
+                                <canvas baseChart width="120px" height="120px" [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType" [legend]="lineChartLegend" [colors]="[{backgroundColor: ['#20aee3', '#24d2b5', '#bcc3d3'], borderColor:['#6772e5', '#6772e5', '#6772e5'] }]"> </canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-12">
+                <div class="card bg-info">
+                    <div class="card-body">
+                        <h4 class="card-title text-white">Download count</h4>
+                        <h6 class="card-subtitle text-white op-5">March 2018</h6>
+                        <div class="d-flex no-block">
+                            <div class="align-self-center no-shrink">
+                                <h2 class="m-b-0 text-white">35487</h2>
+                            </div>
+                            <div class="ml-auto">
+                                <div class="spark-count" style="height:120px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+        </div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- Projects of the Month -->
+<!-- ============================================================== -->
+<div class="row">
+    <!-- Column -->
+    <div class="col-lg-8">
+        <project></project>
+    </div>
+    <!-- Column -->
+    <div class="col-lg-4">
+        <profile-box></profile-box>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Projects of the Month -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Activity and To do list -->
+<!-- ============================================================== -->
+<div class="row">
+    <div class="col-lg-6 col-md-12">
+        <activity-timeline></activity-timeline>
+    </div>
+    <div class="col-lg-6">
+        <to-do></to-do>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Comment - chats -->
+<!-- ============================================================== -->
